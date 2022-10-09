@@ -1,0 +1,95 @@
+html{
+    font-family: 'Inter', sans-serif;
+}
+label{
+    font-size: 15px;
+}
+
+header {
+display: flex;
+justify-content: center;
+}
+header h1 {
+    color: burlywood;
+    font-size: 50px;
+    font-weight: 600;
+}
+.container{
+    margin: 15px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.items{
+    height: 70vh;
+    border: 1px solid rgb(162, 158, 158); 
+}
+
+.options{
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+}
+.options h2 {
+    height: 5px;
+    width: 88%;
+    padding: 15px 20px 35px 20px;
+    margin-top: -1px;
+    color: burlywood;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: rgb(54, 95, 179);
+}
+.option-box{
+    border: 1px solid grey;
+    margin: 0px 5px 5px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.option-box label{
+    padding-top: 5px;
+    margin-left: 10px;
+    color: darkgray;
+}
+.input-color{
+    margin-top: -100px;
+    
+}
+.option-box input{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 2px;
+    width: 80%;
+}
+.option-box .input-color{
+    width: 70%;
+    margin-top: 5px;
+}
+.option-box .box-color{
+    width: 70%;
+    margin-top: 5px;
+}
+.aling-labels{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.square-modify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+    border: 1px solid darkgrey;
+      width: 200px;
+    height: 200px;
+    
+  }
+.code-shadow{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+  

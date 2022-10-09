@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Box Shadow</title>
+</head>
+<body>
+    <header>
+        <h1>Generador de Box Shadow</h1>
+</header>
+<main class="container">
+    <div class="items options">
+        <h2> Box Shadow Option</h2>
+        <div class="option-box">
+            <div class="aling-labels">
+                <label for="">Horizontal Shadow Length </label>
+                <label class="horizontal-shadow"for=""> </label>
+            </div>       
+            <input class="h-shadow-length control" type="range" min="-100" max="100">
+        </div>
+        <div class="option-box">
+            <div class="aling-labels">
+                <label for="">Vertical Shadow Length </label>
+                <label class="vertical-shadow"for=""></label>
+            </div>
+            <input class="v-shadow-length control" type="range" min="-100" max="100">
+        </div>
+        <div class="option-box">
+            <div class="aling-labels">
+                <label for="">Blur Radius</label>
+                <label class="value-blur"for=""> </label>
+             </div>
+            <input class="blur-radius control" type="range" name="" id="">
+        </div>
+        <div class="option-box">
+            <div class="aling-labels">
+                <label for="">Spread Radius </label>
+                <label class="value-radius" for=""> </label>
+             </div>
+            <input class="spread-radius control" type="range" name="" id="">
+        </div>
+        <div class="option-box">
+            <div class="aling-labels">
+                <label for="">Shadow Color </label>
+                <label class="value-color" for=""> </label>
+            </div>
+            <input class="input-color control"type="color" name="" id="">
+        </div>
+    </div>
+
+    <div class="items square-modify">
+        <div class="square"></div>
+    </div>
+
+    <div class="items options">
+        <h2> Box Propertis</h2>
+        <div class="option-box">
+            <div class="aling-labels">
+                <label for="">Background color  </label>
+                <label class="box-color-value"for=""></label>
+            </div>
+            <input class="box-color"type="color" name="" id="">
+        </div>
+        <div class="option-box">
+            <div class="aling-labels">
+                <label for="">Border radius </label>
+                <label class="radius-value"for=""> </label>
+            </div>
+            <input class="border-radius" type="range" name="" id="">
+        </div>
+        <div class="option-box">
+            <div class="aling-labels">
+                <label for="">Height</label>
+                <label class="height-value" for=""> </label>
+             </div>
+            <input class="height" type="range" min="10" max="425" >
+        </div>
+        <div class="option-box">
+            <div class="aling-labels">
+                <label for="">Width </label>
+                <label class="width-value"for=""> </label>
+             </div>
+            <input class="width" type="range" min="10" max="425">
+        </div>
+        <div class="option-box">
+                <label class="code-shadow" for=""></label>      
+        </div>
+        
+    </div>
+</main>    
+</body>
+<script src="./app.js"></script>
+</html>
